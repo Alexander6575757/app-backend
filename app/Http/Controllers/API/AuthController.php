@@ -24,6 +24,7 @@ class AuthController extends BaseController
     //         return $this->sendError('Unauthorised.', ['error'=>'Unauthorised']);
     //     } 
     // }
+    //jhon mamasd
     public function listado (){
         $user=User::all();
         return $user;
